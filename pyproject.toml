@@ -1,0 +1,27 @@
+[project]
+name = "yt-audio-cutter"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "ja49619"}
+]
+readme = "README.md"
+requires-python = ">=3.11,<3.12"
+dependencies = [
+    "pyqt6 (>=6.9.1,<7.0.0)",
+    "yt-dlp (>=2025.8.27,<2026.0.0)",
+    "ffmpeg-python (>=0.2.0,<0.3.0)"
+]
+
+[tool.poetry]
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.4.2"
+black = "^25.1.0"
+flake8 = "^7.3.0"
+isort = "^6.0.1"
+mypy = "^1.17.1"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
