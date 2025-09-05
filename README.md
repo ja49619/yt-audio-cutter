@@ -15,3 +15,7 @@ YouTube Audio Cutter with GUI (PyQt6)
 ## Installation
 ```bash
 poetry install
+
+
+# TODO
+add progress bar

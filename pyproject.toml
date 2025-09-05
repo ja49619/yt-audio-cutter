@@ -1,7 +1,7 @@
 [project]
 name = "yt-audio-cutter"
 version = "0.1.0"
-description = ""
+description = "Programm for cut audio from YouTube"
 authors = [
     {name = "ja49619"}
 ]
